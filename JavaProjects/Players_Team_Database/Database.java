@@ -9,7 +9,7 @@ import java.util.Map;
 public class Database {
 private static final String URL = "jdbc:mysql://metcs520.mysql.database.azure.com:3306/dobogdas";
 private static final String USERNAME = "dobogdas@metcs520";
-private static final String PASSWORD= "metcs520";
+private static final String PASSWORD= "$$";
 
 public void insertPlayers(Collection<Player> player) throws DatabaseException{
     Connection conn =null;
